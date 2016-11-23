@@ -6,8 +6,7 @@ body {
 }
 
 .MainTitle {
-  margin-top: -300px;
-  padding: 100px;
+  margin-top: 50px;
 }
 
 h2, h3{
@@ -18,11 +17,11 @@ h2, h3{
 /*#D3DDE3;
 } */
 
-div /*.col-xs-12, .col-md-4 .col-md-offset-4 */{
-  border: #7EC0DE;
+/*div {
+  border: red;
   border-style: solid;
   border-width: 1px;
-}
+} */
 
 .CoverImage {
   background-position: 50%;
@@ -34,23 +33,34 @@ div /*.col-xs-12, .col-md-4 .col-md-offset-4 */{
   float: auto;
 }
 
-.Problem_Statement, .Persona{
+.Problem_Statement, .Persona {
   border-style: solid;
   border-width: 2px;
   border-color: #7EC0DE;
   padding: 10px;
   background: white;
-  width: 200px;
-  height: 400px;
 
+}
+
+.ShoutOutBox {
+  border: #7EC0DE;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
   color: #7EC0DE;
   width: 100%;
   font-size: .75em;
-  background: rgba(232, 233, 233, .2);
+  background: rgba(232, 233, 233, .9);
 }
+
+.navbar-default, .navbar-fixed-top, .navbar-fixed-top {
+  border: 0 0 2px 0;
+  border-color: #7EC0DE;
+  border-style: solid;
+}
+
 .navbar-default .navbar-nav li a {
     color: #7EC0DE;
     font-size: .75em;
