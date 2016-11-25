@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background: rgba(232, 233, 233, .5);
+  background: rgba(242, 243, 233, .5);
   font-size: 1.75em;
 
 }
@@ -14,13 +14,23 @@ h2, h3{
   text-align: center;
 }
 
+#interview {
+  background-image: url(http://placehold.it/100x150);
+  background-repeat: no-repeat;
+}
+
 /*#D3DDE3;
 } */
 
-/*div {
+.bbbb {
   border: red;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
+}
+
+/*  border: #188DAD;
+  border-width: 1;
+  border-style: dashed;
 } */
 
 .CoverImage {
@@ -37,7 +47,7 @@ h2, h3{
   border-style: solid;
   border-width: 2px;
   border-color: #7EC0DE;
-  padding: 10px;
+
   background: white;
 
 }
@@ -45,7 +55,11 @@ h2, h3{
 .ShoutOutBox {
   border: #7EC0DE;
   border-style: solid;
-  border-width: 2px;
+  border-width: 4px;
+}
+
+.space {
+  height: 20px;
 }
 
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
