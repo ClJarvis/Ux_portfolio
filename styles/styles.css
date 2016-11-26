@@ -28,11 +28,13 @@ h2, h3{
   border-width: 2px;
 }
 
-/*  border: #188DAD;
-  border-width: 1;
-  border-style: dashed;
-} */
 
+
+
+.Main {
+  text-align: center;
+  color: red;
+}
 .CoverImage {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -52,10 +54,16 @@ h2, h3{
 
 }
 
-.ShoutOutBox {
+.ShoutOutBox, .PrototypeInforomtion {
   border: #7EC0DE;
   border-style: solid;
   border-width: 4px;
+  background: white;
+}
+
+.PrototypeInforomtion {
+  margin: 100px;
+  margin-top: -175px; /*////make this number half of prototype image height */
 }
 
 .space {
