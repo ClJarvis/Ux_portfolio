@@ -58,12 +58,12 @@ h2, h3{
   border: #7EC0DE;
   border-style: solid;
   border-width: 4px;
-  background: white;
 }
 
 .PrototypeInforomtion {
   margin: 100px;
   margin-top: -175px; /*////make this number half of prototype image height */
+  background: white;
 }
 
 .space {
