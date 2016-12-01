@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background: rgba(242, 243, 233, .5);
+  background: white; /* whitesmoke ? */
   font-size: 1.75em;
 
 }
@@ -14,20 +14,22 @@ h2, h3{
   text-align: center;
 }
 
-#interview {
-  background-image: url(http://placehold.it/100x150);
+ {
+  background-image: url(../images/MM_survey.jpg);
+ /*   background-image: url(http://placehold.it/100x150); */
+  max-height: 300px;
+  max-width: 150px;
   background-repeat: no-repeat;
 }
 
 /*#D3DDE3;
 } */
 
-.bbbb {
+/*div {
   border: red;
   border-style: solid;
   border-width: 2px;
-}
-
+} */
 
 
 
@@ -49,9 +51,16 @@ h2, h3{
   border-style: solid;
   border-width: 2px;
   border-color: #7EC0DE;
+  background-color: white;
 
-  background: white;
+}
 
+.Interview{
+  height: 300px;
+}
+
+#Interview_img{
+  max-height: 300px;
 }
 
 .ShoutOutBox, .PrototypeInforomtion {
@@ -63,24 +72,29 @@ h2, h3{
 .PrototypeInforomtion {
   margin: 100px;
   margin-top: -175px; /*////make this number half of prototype image height */
-  background: white;
+  background-color: white;
 }
 
 .space {
-  height: 20px;
+  height: 40px;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
 }
 
+
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
-  color: #7EC0DE;
+
   width: 100%;
   font-size: .75em;
-  background: rgba(232, 233, 233, .9);
+  background: #1A237E;
 }
 
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top {
   border: 0 0 2px 0;
   border-color: #7EC0DE;
   border-style: solid;
+
 }
 
 .navbar-default .navbar-nav li a {
@@ -88,10 +102,16 @@ h2, h3{
     font-size: .75em;
 }
 
-.navbar-default, .navbar-fixed-top ul li a:active, a:hover {
-  font-size: .95em;
-  color: #188DAD;
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+    font-size: .85em;
 }
+
+ul li {
+  color: #7EC0DE; /*    */
+  text-decoration: bold;
+}
+
 
 /*.navbar-brand{
   font-size: .95em;
