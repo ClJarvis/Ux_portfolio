@@ -55,6 +55,10 @@ h2, h3{
 
 }
 
+.Persona h3{
+  color: #1A237E;
+}
+
 .Interview{
   height: 300px;
 }
@@ -76,10 +80,7 @@ h2, h3{
 }
 
 .space {
-  height: 40px;
-  border-color: red;
-  border-width: 1px;
-  border-style: solid;
+  height: 30px;
 }
 
 
@@ -112,7 +113,11 @@ ul li {
   text-decoration: bold;
 }
 
-
+blockquote {
+  background: #7EC0DE;
+  border: 5px solid #1A237E;
+  font-weight: bold;
+}
 /*.navbar-brand{
   font-size: .95em;
 } */
