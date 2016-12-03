@@ -24,12 +24,12 @@ h2, h3{
 
 /*#D3DDE3;
 } */
-
+/*
 .testdiv {
   border: red;
   border-style: solid;
   border-width: 2px;
-}
+} */
 
 
 
@@ -121,3 +121,11 @@ blockquote {
 /*.navbar-brand{
   font-size: .95em;
 } */
+
+.testnav {
+  background-color: inherit;
+}
+.testnav .navbar-nav li a:hover {
+  background-color: inherit;
+  color: #1A237E;
+}
