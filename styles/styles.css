@@ -7,6 +7,7 @@ body {
 a:hover {
   color: #7EC0DE;
 }
+
 .MainTitle {
   margin-top: 50px;
 }
@@ -127,8 +128,11 @@ blockquote {
 .testnav {
   background-color: inherit;
   margin-top: 20px;
+  margin-bottom: 30px;
+
 }
 .testnav .navbar-nav li a:hover {
   background-color: inherit;
   color: #1A237E;
 }
+
