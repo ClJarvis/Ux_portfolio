@@ -76,6 +76,16 @@ h2, h3{
   border-width: 4px;
 }
 
+.PrototypeImage {
+  margin-left: 99px;
+  margin-bottom: -400px; /*////make this number half of prototype image height */
+  border: #7EC0DE;
+  border-style: solid;
+  border-width: 4px;
+  max-height:400px;
+  width:175px;
+}
+
 .PrototypeInforomtion {
   margin: 100px;
   margin-top: -175px; /*////make this number half of prototype image height */
