@@ -130,6 +130,7 @@ blockquote {
   background: #7EC0DE;
   border: 5px solid #1A237E;
   font-weight: bold;
+  text-align: center;
 }
 /*.navbar-brand{
   font-size: .95em;

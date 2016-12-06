@@ -1,0 +1,85 @@
+.ContactBox {
+  background-color: transparent;
+  padding: 10px;
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+
+.ContactBox:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.ContactBox div {
+  width: 600px;
+  max-width: 100%;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  background: #171a2b; /* rgba(140,158,255, .5); */
+  border-style: solid;
+  border-color: #5C6BC0;
+  border-width: 3px;
+}
+
+
+
+.close {
+  background-color: #FFF;
+  line-height: 25px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  text-align: right;
+  top: -5px;
+  width: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #8C9EFF;
+  border-width: 3px;
+  color: #171a2b;
+  float: right;
+}
+
+.close:hover, .close:focus, .btn-close {
+  background-color: #fff;
+  color: #5C6BC0;
+  border-style: solid;
+  border-color: #8C9EFF;
+  border-width: 3px;
+}
+
+.inputwrapper input:focus {
+    border-bottom: 2px solid #5C6BC0 !important;
+    box-shadow: 0 1px 0 0 #8C9EFF;
+ /* background: #171a2b; */
+}
+
+.inputwrapper textarea:focus {
+  border: 2px solid #5C6BC0 !important;
+}
+
+.inputwrapper .btn-flat {
+    background-color: #5C6BC0;
+    text-decoration: none;
+    border-style: none;
+    color: #1A237E;
+    text-indent: 0;
+}
+
+.inputwrapper label {
+  color: #5C6BC0;
+  font-size: 1rem;
+}
